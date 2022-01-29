@@ -169,7 +169,7 @@
           justify-content: flex-start;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-top: 3.5%;
+  padding-top: 2%;
 }
 
 .texting h4 {
@@ -224,6 +224,20 @@
 @media (min-width: 768px) and (max-width: 990px) {
   .col-md-5 {
     width: 50% !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 760px) {
+  .leftside3 {
+    display: none !important;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
