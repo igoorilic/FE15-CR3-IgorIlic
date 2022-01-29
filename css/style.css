@@ -15,7 +15,7 @@
 
 .text {
   color: white;
-  font-size: 3em;
+  font-size: 4vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -134,5 +134,84 @@
 
 .test12 {
   padding-bottom: 10px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2.5%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.leftside3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.rightside3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-top: 3.5%;
+}
+
+.texting h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3%;
+  padding-left: 9vw;
+}
+
+.texting {
+  text-align: end;
+  padding-right: 9%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.messagetext p {
+  margin-bottom: 0px;
+}
+
+.buttonmargin {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.footersection {
+  padding: 1vw 0vw;
+}
+
+.texting img {
+  height: 200%;
+}
+
+.marginzero {
+  margin-bottom: 0px;
+}
+
+.review {
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */

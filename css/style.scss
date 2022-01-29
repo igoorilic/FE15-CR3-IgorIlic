@@ -15,7 +15,7 @@
     
     .text {
         color: white;
-        font-size: 3em;
+        font-size: 4vw;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -116,22 +116,69 @@
     .contact {
         display: flex;
         width: 100%;
-        flex-basis: 100%;
         margin: 0 auto;
+        padding-top: 2.5%;
+        flex-wrap: wrap;
     }
     
     .leftside3 {
         display: flex;
         flex-basis: 50%;
+        justify-content: flex-end;
         margin: 0 auto;
         padding: 0 auto;
     }
     
     .rightside3 {
         display: flex;
+        justify-content: flex-start;
         flex-basis: 50%;
+        padding-top: 3.5%;
     }
     
     .texting h4 {
-        text-align: left;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+        padding-left: 9vw;
     }
+    
+    .texting {
+        text-align: end;
+        padding-right: 9%;
+        flex-wrap: wrap;
+    }
+    
+    .messagetext p {
+        margin-bottom: 0px;
+    }
+    
+    .buttonmargin {
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .footersection {
+        padding: 1vw 0vw;
+    }
+    
+    .texting img {
+        height: 200%;
+    }
+    
+    .marginzero {
+        margin-bottom: 0px;
+    }
+    
+    .review {
+        margin-right: 5px;
+    }
+    
+    // @media screen and (width: 600px) {
+    //     .rightside3 {
+    //         flex-basis: 80%;
+    //     }
+    //     .leftside3 {
+    //         flex-basis: 80%;
+    //     }
+    // }
